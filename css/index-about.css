@@ -4,10 +4,12 @@ h3 {
 }
 
 button {
-  padding: 13px;
+  height: 10%;
+  width: 40%;
   border: solid black 2px;
+  border-radius: 10px;
   background-color: white;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .top-content {
@@ -32,11 +34,14 @@ button {
   flex-direction: column;
   justify-content: space-around;
   border-bottom: 1px dashed black;
-  align-self: center;
 }
 
 .content-box h3,
 .content-box p {
   margin-top: 15px;
   margin-bottom: 15px;
+}
+
+.bottom-content-about {
+  margin: 40px auto;
 }
