@@ -1,3 +1,4 @@
+/* Element Changes */
 * {
   box-sizing: border-box;
 }
@@ -27,6 +28,7 @@ p {
   margin: 0 auto;
 }
 
+/*  Header Changes */
 header {
   display: flex;
   justify-content: space-between;
@@ -38,6 +40,7 @@ header a {
   text-decoration: none;
 }
 
+/* Top-Content Changes */
 .top-content {
   display: flex;
   flex-wrap: wrap;
@@ -56,6 +59,7 @@ header a {
   padding-bottom: 20px;
 }
 
+/* Mid-Content Change */
 .middle-content {
   margin-bottom: 20px;
   border-bottom: 1px dashed black;
@@ -83,6 +87,7 @@ header a {
   justify-content: center;
 }
 
+/* Box-Changes */
 #box-1 {
   background-color: teal;
 }
@@ -114,6 +119,7 @@ header a {
   background-color: dodgerblue;
 }
 
+/* Bottom Content Changes */
 .bottom-content {
   display: flex;
   margin: 0 2% 20px;
@@ -128,6 +134,7 @@ header a {
   padding-right: 0;
 }
 
+/* Footer Changes */
 footer {
   width: 100%;
   background: black;

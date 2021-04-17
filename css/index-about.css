@@ -1,3 +1,4 @@
+/* Element Changes */
 h3 {
   font-size: 1.5rem;
   padding: 10px auto;
@@ -12,12 +13,14 @@ button {
   font-size: 1rem;
 }
 
+/* Top-Content Changes */
 .top-content {
   display: flex;
   justify-content: flex-start;
   padding: 20px;
 }
 
+/* Main-Content Changes */
 .main-content-r1 {
   display: flex;
   flex-wrap: wrap;
@@ -42,6 +45,7 @@ button {
   margin-bottom: 15px;
 }
 
+/* Bottom-Content Changes */
 .bottom-content-about {
   margin: 40px auto;
 }
