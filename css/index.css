@@ -28,14 +28,14 @@ p {
   margin: 0 auto;
 }
 
-/*  Nav Changes */
-nav {
+/*  Header Changes */
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px 10px;
 }
-nav a {
+header a {
   color: black;
   text-decoration: none;
 }
