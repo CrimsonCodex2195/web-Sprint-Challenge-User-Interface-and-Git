@@ -1,0 +1,51 @@
+/* Element Changes */
+h3 {
+  font-size: 1.5rem;
+  padding: 10px auto;
+}
+
+button {
+  height: 10%;
+  width: 40%;
+  border: solid black 2px;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 1rem;
+}
+
+/* Top-Content Changes */
+.top-content {
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+/* Main-Content Changes */
+.main-content-r1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-content-r1 > .content-box {
+  flex: 50%;
+  /* box-shadow: 0 0 0 1px black; */
+  padding: 10px;
+}
+
+.content-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-bottom: 1px dashed black;
+}
+
+.content-box h3,
+.content-box p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* Bottom-Content Changes */
+.bottom-content-about {
+  margin: 40px auto;
+}
